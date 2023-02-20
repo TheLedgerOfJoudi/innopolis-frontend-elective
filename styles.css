@@ -16,3 +16,11 @@ ul{
 .bold-text{
     font-weight: bold;
 }
+
+.comic-img{
+    margin-bottom: 10px;
+}
+
+.comic-date{
+    margin-bottom: 10px;
+}
