@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+ul{
+  list-style-position: inside;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
