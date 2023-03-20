@@ -25,3 +25,9 @@
   <li>French</li>
 </ul>
 <hr />
+
+<style>
+  ul {
+    list-style-position: inside;
+  }
+</style>

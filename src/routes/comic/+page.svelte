@@ -1,6 +1,4 @@
 <script lang="ts">
-    import {onMount} from 'svelte';
-
   type FetchedResponse = Response;
 
   type ComicResponse = {
@@ -16,8 +14,8 @@
     title: string;
     day: string;
   };
-	
-	let comicImage: Element;
+
+  let comicImage: Element;
   let comicDate: Element;
 
   async function fetchComic(firstUrl: URL, secondUrl: URL) {
@@ -52,6 +50,6 @@
 
 <style>
   div {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 </style>
